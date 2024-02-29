@@ -1,0 +1,55 @@
+#include "pch.h"
+#include <iostream>
+
+using namespace System;
+using namespace std;
+
+struct Persoana {
+    unsigned vs;
+    char nume[20];
+    char prenume[20];
+};
+class Pers
+{
+private:
+    unsigned vs;
+    char nume[20];
+    char prenume[20];
+public:
+    Pers(unsigned vs1, char* num1, char* prenum1)
+    {
+        vs = vs1;
+        strcpy_s(nume, 20, num1);
+        strcpy_s(prenume, 20, prenum1);
+    }
+    Pers(){}
+    unsigned arata_vs() { return vs;}
+    char* arata_nume() { return nume; }
+};
+
+
+    int main()
+    {
+    int i;
+    Console::WriteLine("Introduceti numarul de persone:");
+    int nr_persoane;
+    cin >> nr_persoane;
+    Persoana* persoane = new Persoana[nr_persoane];
+    for (i = 0; i < nr_persoane; i++)
+    {
+        Console::WriteLine("Introduceti numelei persoanei {0}:", i++);
+        char nume[20];
+    cin >> nume;
+    strcpy_s(persoane[i].nume, 20, nume);
+    Console::WriteLine("Introduceti varsta persoanei{0}:", i++);
+        unsigned vs;
+    cin >> vs;
+    persoane[i].vs = vs;
+
+        }
+    Console::WriteLine("Afisam numele persoanelor si varsta aferente:");
+        for (int i = 0; i < nr_persoane; i++) {
+            cout << persoane[i].nume << "\t" << persoane[i].vs << endl;
+        }
+    Console::ReadKey();
+    }
