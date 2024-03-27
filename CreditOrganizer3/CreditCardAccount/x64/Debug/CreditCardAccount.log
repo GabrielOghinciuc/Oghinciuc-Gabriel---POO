@@ -1,0 +1,11 @@
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  CreditCardAccount.cpp
+  Generating Code...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+CreditCardAccount.obj : error LNK2020: unresolved token (06000004) LoyaltyScheme::.ctor
+CreditCardAccount.obj : error LNK2020: unresolved token (06000005) LoyaltyScheme::EarnPointsOnAmount
+CreditCardAccount.obj : error LNK2020: unresolved token (06000006) LoyaltyScheme::RedeemPoints
+CreditCardAccount.obj : error LNK2020: unresolved token (06000007) LoyaltyScheme::GetPoints
+C:\Users\Gabriel\source\repos\CreditCardAccount\x64\Debug\CreditCardAccount.exe : fatal error LNK1120: 4 unresolved externals
