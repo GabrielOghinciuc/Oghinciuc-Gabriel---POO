@@ -2,9 +2,7 @@
 #include "CreditCardAccount.h"
 using namespace System;
 void CreditCardAccount::SetCreditLimit(double amount)
-{
-	creditLimit = amount;
-}
+{creditLimit = amount;}
 bool CreditCardAccount::MakePurchase(double amount)
 {
 	if (currentBalance + amount > creditLimit)
