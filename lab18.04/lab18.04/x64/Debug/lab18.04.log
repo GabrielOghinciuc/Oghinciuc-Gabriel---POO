@@ -1,0 +1,15 @@
+﻿  lab18.04.cpp
+C:\Users\Student\Desktop\SOVA eMILIAN\lab18.04\lab18.04\lab18.04.cpp(12,59): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (compiling source file '/lab18.04.cpp')
+  
+C:\Users\Student\Desktop\SOVA eMILIAN\lab18.04\lab18.04\lab18.04.cpp(21,8): error C2084: function 'double operator +(Pers &,double)' already has a body
+  (compiling source file '/lab18.04.cpp')
+  C:\Users\Student\Desktop\SOVA eMILIAN\lab18.04\lab18.04\lab18.04.cpp(16,8):
+  see previous definition of '+'
+  
+C:\Users\Student\Desktop\SOVA eMILIAN\lab18.04\lab18.04\lab18.04.cpp(30,55): error C2264: 'operator +': error in function definition or declaration; function not called
+  (compiling source file '/lab18.04.cpp')
+  
+C:\Users\Student\Desktop\SOVA eMILIAN\lab18.04\lab18.04\lab18.04.cpp(30,55): error C2088: built-in operator '+' cannot be applied to an operand of type 'Pers'
+  (compiling source file '/lab18.04.cpp')
+  
