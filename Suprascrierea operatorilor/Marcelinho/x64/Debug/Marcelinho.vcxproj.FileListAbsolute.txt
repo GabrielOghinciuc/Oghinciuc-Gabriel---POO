@@ -1,2 +1,0 @@
-C:\Users\Student\Desktop\SOVA eMILIAN\Marcelinho\Marcelinho\x64\Debug\Marcelinho.vcxproj.AssemblyReference.cache
-C:\Users\Student\Desktop\SOVA eMILIAN\Suprascrierea operatorilor\Marcelinho\x64\Debug\Marcelinho.vcxproj.AssemblyReference.cache

@@ -1,6 +1,0 @@
-﻿  Marcelinho.cpp
-C:\Users\Student\Desktop\SOVA eMILIAN\Suprascrierea operatorilor\Marcelinho\Marcelinho.cpp(16,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  (compiling source file '/Marcelinho.cpp')
-  
-  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Marcelinho.vcxproj -> C:\Users\Student\Desktop\SOVA eMILIAN\Suprascrierea operatorilor\x64\Debug\Marcelinho.exe
