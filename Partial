@@ -1,0 +1,33 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+#include <iostream>
+#include <string>
+using namespace std;
+class hotel{
+    private:
+    string nume;
+    string prenume;
+    int noapte;
+    public:
+    hotel(string nu , string pre, int no)
+    {noapte=no;
+    nume=nu;
+    prenume=pre;}
+    ~hotel(){cout<<"destructor"<<endl;}
+    void fac () {cout<<"Clientul:"<<" "<<nume<<" "<<prenume<<" are de platit: "<<noapte*120<<" "<<"Lei"<<endl;} ///120 pretul standard noapte
+};
+void spatiu() {cout<<endl;}
+
+int main()
+{hotel e1("Popescu","Ion",7);
+hotel e2("Popescu","Andrei",5);
+e1.fac();
+spatiu();
+e2.fac();
+    return 0;
+}
